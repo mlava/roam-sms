@@ -136,7 +136,7 @@ async function checkFirstRun() {
         await window.roamAlphaAPI.createPage({ page: { title: "Nexmo / Vonage configuration", uid: newUid } });
         let string1 = "Thank you for installing the Nexmo / Vonage extension for Roam Research. This page has been automatically generated to allow definition of your contacts.";
         await createBlock(string1, newUid, 0);
-        let string2 = "Below the horizontal line is where you can define your contacts. A dummy contact is provided for reference.";
+        let string2 = "Below the horizontal line is where you can define your contacts. Two dummy contacts are provided for reference. Please delete and replace with real people!";
         await createBlock(string2, newUid, 1);
         let string3 = "Phone numbers should start with the country code then the number. Don't prefix with + sign.";
         await createBlock(string3, newUid, 2);
